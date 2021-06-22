@@ -36,7 +36,7 @@ function CollegeForm() {
         let token = localStorage.getItem('token');
         console.log(adminId, token)
         return axios
-            .post(`http://localhost:5000/admin/add-college`, {
+            .post(`https://student-college-server.herokuapp.com/admin/add-college`, {
                 adminId, courseName, clgName, desp,
                 modeOfStudy, location, courseDuration, rating
             },
