@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+
+/* register css */
+
+.signup-form {
+  border : 1px solid black;
+  padding: 50px;
+  border-radius:50px 0px 0px 50px
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text {
+ 
+  text-align: left;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:bolder;
+
+}
+.sub-heading
+{
+  text-align: left;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:25px;
+  font-weight:lighter;
+	color:black
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup-form h4 {
+	color:black;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:25px;
+	margin: 0 0 5px;
+	position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.signup-form .btn {        
+	font-size: 15px;
+	font-weight: bold;		
+	min-width: -webkit-fill-available;
+	outline: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* login css */
+
+.login-form {
+  border : 1px solid black;
+  padding: 50px;
+  border-radius:50px 0px 0px 50px
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text {
+ 
+  text-align: left;
+   font-size: 12px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:bolder;
+
+}
+.sub-heading
+{
+  text-align: left;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:25px;
+  font-weight:lighter;
+	color:black
+
+}
+
+.login-form h4 {
+	color:black;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:25px;
+	margin: 0 0 5px;
+	position: relative;
+}
+
+.login-form .btn {        
+	font-size: 15px;
+	font-weight: bold;		
+	min-width: -webkit-fill-available;
+	outline: none !important;
+}
+
+.text-style
+{
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size:13px;
+	color:rgb(207, 23, 23);
+}
+
+/* collegelist css*/
+.collegelist h4{
+	    color:black;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-weight: bold;
+		font-size:18px;
+		margin: 0 0 5px;
+		position: relative;
+		float:left
+}
+.collegelist span{
+	color:rgb(207, 23, 23);
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin: 0 0 5px;
+	position: relative;
+	float:left;
+	font-size: 12px;
+}
+.collegelist .desp{
+
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin: 0 0 5px;
+	position: relative;
+	font-size:12px;
+
+}
+.collegelist h6{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin: 0 0 5px;
+	position: relative;
+	font-size: 15px;
+}
+.searchbox
+{
+	width:50%;
+}
+
+.display{
+    display:block;
+}
+
+/* table css*/
+table {
+    border: 1px solid black;
+	width:100%;
+	
+}
+ table th{
+	 font-family:Verdana, Geneva, Tahoma, sans-serif;
+	 font-size:15px;
+	 text-align: left;
+	
+ }
+ table td{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:12px;
+	font-weight:lighter;
+	text-transform: capitalize;
+	text-align: left;
+
+
 }
