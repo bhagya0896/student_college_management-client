@@ -43,7 +43,7 @@ function AppliedColleges()
     const fetchCollegeList=()=>{
         
             return axios
-            .get(`http://localhost:5000/student/college-list/${studentId}`,{
+            .get(`https://student-college-server.herokuapp.com/student/college-list/${studentId}`,{
                 headers:{
                     "Content-Type": "application/json",
                     'auth-token' : token
@@ -73,7 +73,7 @@ function AppliedColleges()
        
         setMessage("");
         return axios
-        .post(`http://localhost:5000/student/final-college-list/${studentId}`,{colleges},{
+        .post(`https://student-college-server.herokuapp.com/student/final-college-list/${studentId}`,{colleges},{
             headers:{
                 "Content-Type": "application/json",
                 'auth-token' : token
