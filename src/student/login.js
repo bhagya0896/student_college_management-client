@@ -36,7 +36,7 @@ function Login({handleLogin})
     {
         setcustomMessage(" ")
         return axios
-        .post(`http://localhost:5000/student/login`,{email,password})
+        .post(`https://student-college-server.herokuapp.com/student/login`,{email,password})
      
         .then((res)=>{let data = res.data;
             let token = data.token;
@@ -82,7 +82,7 @@ const handlePassword = (e) =>
   }
 else{
    setcustomMessage("");
-   return axios.post('http://localhost:5000/user/forgetpassword', {
+   return axios.post('https://student-college-server.herokuapp.com/user/forgetpassword', {
     email
     })
  
