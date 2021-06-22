@@ -50,7 +50,7 @@ function StudentDetailsForm ()
         let token =  localStorage.getItem('token');
         console.log(studentId,token)
         return axios
-        .post(`http://localhost:5000/student/details-register`,{studentId,firstname,lastname,
+        .post(`https://student-college-server.herokuapp.com/student/details-register`,{studentId,firstname,lastname,
         permanentAddress,
         postalCode ,city,country,email,contact,courseName,specialization,
         collegeName},
