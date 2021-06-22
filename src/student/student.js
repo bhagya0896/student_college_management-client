@@ -58,7 +58,7 @@ function StudentDetails ({logout})
        
         console.log(courseName)
             return axios
-            .get(`http://localhost:5000/colleges/${courseName}`,{
+            .get(`https://student-college-server.herokuapp.com/colleges/${courseName}`,{
                 headers:{
                     "Content-Type": "application/json",
                     'auth-token' : token
