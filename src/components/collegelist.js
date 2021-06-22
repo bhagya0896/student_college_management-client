@@ -35,7 +35,7 @@ const CollegeList = ({colleges,setColleges,custommessage}) =>
       }) ;
       college.applied = !college.applied
   
-        return axios.put(`http://localhost:5000/student/assign-college/${studentId}`,{_id,college},{
+        return axios.put(`https://student-college-server.herokuapp.com/student/assign-college/${studentId}`,{_id,college},{
           headers: {
           "Content-Type": "application/json",
           'auth-token': token,
