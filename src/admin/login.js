@@ -37,7 +37,7 @@ function AdminLogin({handleAdminLogin})
         {
             setcustomMessage(" ")
             return axios
-            .post(`http://localhost:5000/admin/signin`,{email,password})
+            .post(`https://student-college-server.herokuapp.com/admin/signin`,{email,password})
          
             .then((res)=>{let data = res.data;
                 let token = data.token;
