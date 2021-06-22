@@ -58,7 +58,7 @@ function Register ()
         else{
             setcustomMessage("")
             return axios
-            .post(`http://localhost:5000/student/register`,{firstname,lastname,email,password,cpassword})
+            .post(`https://student-college-server.herokuapp.com/student/register`,{firstname,lastname,email,password,cpassword})
             .then((res)=>
             {
                 let data = res.data;
