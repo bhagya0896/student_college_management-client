@@ -20,7 +20,7 @@ All rights reserved.</small>
  
         </Col>
     </Row>
-</Container fluid>
+</Container>
 </>
         
        
