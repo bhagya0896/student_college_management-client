@@ -15,11 +15,12 @@ function Footer ()
     <Row >
         <Col xs={12} md={12} className="text-center p-3">
        <hr ></hr>
-           <small className=" text-center  text" style={{ fontSize: "11px",color:"black"}} >Copyright 2020 <b className="text"style={{color:"rgb(207, 23, 23)"}}>EduCo</b>. All rights reserved.</b></small>
+           <small className=" text-center  text" style={{ fontSize: "11px",color:"black"}} >Copyright 2020 <b className="text"style={{color:"rgb(207, 23, 23)"}}>EduCo</b>.
+All rights reserved.</small>
  
         </Col>
     </Row>
-</Container>
+</Container fluid>
 </>
         
        
