@@ -7,6 +7,7 @@ import {  fetchColleges } from "./components/interaction.js";
 
 //importing components
 import Navigation from './components/nav';
+import Footer from './components/footer';
 import Register from './student/register';
 import Login from './student/login';
 import Password from './student/password';
@@ -108,6 +109,7 @@ const handleAdminLogin = (usr,token,adminId,role)=>{
         <Route exact path="/">
         <Navigation/>
         <CollegeList colleges={colleges}  custommessage={custommessage} />
+          <Footer/>
         </Route>
 
         <Route exact path="/student/register">
